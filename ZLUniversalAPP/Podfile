@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+target 'ZLUniversalAPP' do
+pod 'MJRefresh'
+pod 'AFNetworking', '~> 3.0'
+pod 'YYKit'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'IQKeyboardManager'
+pod 'JXCategoryView'
+pod 'TYCyclePagerView'
+end

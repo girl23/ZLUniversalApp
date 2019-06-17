@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  ZLUniversalAPP
+//
+//  Created by 周利 on 2019/6/12.
+//  Copyright © 2019 周利. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+
+//基础类
+#import "RootViewController.h"
+#import "BaseTableViewController.h"
+
+
+//工具类
+#import "ZLHelp.h"
+#import "PPNetworkHelper.h"
+
+//分类
+#import "AppDelegate+AppService.h"
+#import "AppDelegate+ShareService.h"
+#import "NSString+StringSize.h"//字符串宽高
+#import "MBProgressHUD+XY.h"
+
+//第三方
+#import <MJRefresh.h>
+#import <YYKit.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
